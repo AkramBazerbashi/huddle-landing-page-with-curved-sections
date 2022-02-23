@@ -1,0 +1,207 @@
+@media (max-width: 375px) {
+    .header{
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .logo{
+        width: 120px;
+        height: 20px;
+    }
+    .button1{
+        padding: 5px;
+        width: 100px;
+    }
+    .first{
+        padding: 20px;
+        height: 380px;
+    }
+    .first > h1:first-child{
+        font-size: 27px;
+    }
+    .first > p:nth-child(2){
+        width: 93%;
+        font-size: 14px;
+    }
+    .button2{
+        padding:10px;
+        width: 200px;
+        margin-bottom: 50px;
+    }
+    .img1{
+        MAX-width: 90%;
+        height: 200px;
+        margin-bottom: 100px;
+    }
+    .nums{
+        flex-direction: column;
+        align-items: center;
+    }
+    .second{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .secondLeft{
+        margin-top: 40px;
+        width: 90%;
+        order: 2;
+    }
+    .secondLeft h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .secondLeft P{
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+    }
+    .secondRight{
+        width: 90%;
+    }
+    .second img{
+        display: block;
+        max-width: 90%;
+        margin: auto;
+    }
+    .secondTop{
+        max-width: 100%;
+        margin-top: 50px;
+        margin-bottom: -5px;
+    }
+    .secondBottom{
+        max-width: 100%;
+        margin-top: -5px;
+        margin-bottom: 50px;
+    }
+    .secondTop img, .secondBottom img, .forthTop img, .forthBottom img{
+        max-width: 100%;
+    }
+    .third{
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 50px auto;
+    }
+    .thirdLeft{
+        width: 90%;
+    }
+    .thirdRight h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .thirdRight P{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+    .thirdRight{
+        margin-top: 40px;
+        width: 90%;
+    }
+    .third img{
+        display: block;
+        max-width: 90%;
+        margin: auto;
+    }
+    .forth{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .forthLeft{
+        margin-top: 40px;
+        width: 90%;
+        order: 2;
+    }
+    .forthLeft h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .forthLeft P{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+    .forthRight{
+        width: 90%;
+    }
+    .forth img{
+        max-width: 70%;
+        display: block;
+        margin: auto;
+    }
+    .forthTop{
+        max-width: 100%;
+        margin-top: 50px;
+        margin-bottom: -5px;
+    }
+    .forthBottom{
+        max-width: 100%;
+        margin-top: -5px;
+        margin-bottom: 50px;
+    }
+    .fifth{
+        margin: 100px auto;
+    }
+    .fifth h2{
+        font-size: 30px;
+    }
+    .button3{
+        width: 60%;
+        margin: auto;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 50px;
+    }
+    .footerRight{
+        width: 90%;
+        height: 250px;
+    }
+    .footerRight h2{
+        font-size: 30px;
+        margin-bottom: 0px;
+    
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    form input[type= "email"]{
+        width: 100%;
+        height: 38px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    form input[type= "button"]{
+        padding: 10px;
+        width: 50%;
+    }
+    .footerLeft{
+        margin-top: 80px;
+        width: 90%;
+        order: 2;
+    }
+    .footerLeft > p{
+        width: 100%;
+        font-size: 11px;
+    }
+    .phone p, .email p{
+        width: 88%;
+        font-size: 14px;
+    }
+    .footerRight p{
+        width: 100%;
+        font-size: 11px;
+    }
+    .footerTop img {
+        margin-top: 80px;
+        margin-bottom: -5px;
+    }
+    .social{
+    margin-top: 40px;
+    }
+    .icon-facebook, .icon-instagram, .icon-twitter{
+    margin-right: 10px;
+    
+    }
+}
